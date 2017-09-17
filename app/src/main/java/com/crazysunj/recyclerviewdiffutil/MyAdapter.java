@@ -43,7 +43,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
 
         public MyViewHolder(View itemView) {
             super(itemView);
-            title = itemView.findViewById(R.id.title);
+            title = (TextView) itemView.findViewById(R.id.title);
         }
     }
 }
