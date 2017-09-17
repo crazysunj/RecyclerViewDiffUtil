@@ -13,4 +13,4 @@ android:
 
   licenses:
     - 'android-sdk-license.*'
-script: ./gradlew assembleRelease
+script: ./gradlew build connectedCheck
