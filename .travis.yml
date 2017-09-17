@@ -1,5 +1,6 @@
 language: android
 jdk: oraclejdk8
+sudo: false
 android:
   components:
     - build-tools-26.0.1
@@ -7,6 +8,10 @@ android:
     - extra-android-support
     - extra-android-m2repository
     - platform-tools
+    licenses:
+        - 'android-sdk-preview-license-52d11cd2'
+        - 'android-sdk-license-.+'
+        - 'google-gdk-license-.+'
 
 script:
-  - ./gradlew build
+  - ./gradlew assembleRelease
