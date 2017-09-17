@@ -1,7 +1,8 @@
 # RecyclerViewDiffUtil
 DiffUtil的一个支持库
 
-[![](https://travis-ci.org/crazysunj/RecyclerViewDiffUtil.svg?branch=master)](https://travis-ci.org/crazysunj/RecyclerViewDiffUtil) [![Bintray](https://img.shields.io/bintray/v/asciidoctor/maven/asciidoctorj.svg)](v0.0.2)
+[![](https://travis-ci.org/crazysunj/RecyclerViewDiffUtil.svg?branch=master)](https://travis-ci.org/crazysunj/RecyclerViewDiffUtil)
+[![Bintray](https://api.bintray.com/packages/twsunj/maven/RecyclerViewDiffUtil/images/download.svg)](https://bintray.com/twsunj/maven/RecyclerViewDiffUtil)
 
 
 
